@@ -1,0 +1,59 @@
+body, html {
+  height: 100%;
+}
+
+*{
+  box-sizing: border-box;
+  outline: none;
+}
+
+main{
+  min-height: 100%;
+  padding: 30px;
+}
+
+a,
+button{
+  cursor: pointer;
+}
+
+
+a.add--task {
+  position: fixed;
+  bottom: 30px; 
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #0E1F55;
+  font-size: 14px !important;
+  color: white;
+  font-weight: bold;
+  padding: 18px 30px;
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -moz-box-shadow: 0px 0px 20px 0px rgb(255 255 255 / 50%);
+  box-shadow: 0px 0px 20px 0px rgb(255 255 255 / 50%);¨
+  white-space: nowrap
+}
+
+
+.mySwiper{
+  width: 100%;
+  margin: -17px 0;
+}
+
+.mySwiper .swiper-wrapper{
+  margin-left:30px;
+  padding: 17px 0;
+  height: 80px;
+}
+
+.mySwiper .swiper-slide{
+  width: 140px;
+  margin-right: 10px;
+}
+
+.mySwiper .swiper-slide:last-child{
+  width: 200px;
+}
